@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+
+  <meta charset="ascii" />
+
+  <script type="text/javascript" src="lib/jquery-1.8.2.js"></script>
+
+  <script type="text/javascript" src="src/Notification.js"></script>
+
+</head>
+
+<body>
+	<button id="go">GO !!!</button>
+	<div id="notificationDiv" style="display:none"></div>
+</body>
+  <script type="text/javascript">
+    (function() {
+		$("#go").click(function() {
+			notification.display($("#notificationDiv"), "Message de test");
+		});
+    })();
+  </script>
+</html>
