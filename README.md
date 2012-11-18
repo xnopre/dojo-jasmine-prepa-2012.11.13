@@ -1,0 +1,1 @@
+Ce dépôt contient les sources préparées par Pierre et Xavier pour le Dojo du CARA du 13/11/2012 sur le thème "JavaScript et bonnes pratiques en mode TDD"
